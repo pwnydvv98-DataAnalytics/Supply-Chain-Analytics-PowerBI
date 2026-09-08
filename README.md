@@ -22,7 +22,7 @@ Managing modern supply chain networks requires real-time, end-to-end visibility 
 The dashboard uses a standardized 1280 × 720 canvas resolution with consistent executive navigation and color palettes across four specialized views:
 
 ### 1. Executive Overview
-![Executive Overview](page1.png)
+![Executive Overview](ScreenShot/page1.png)
 
 C-suite operational cockpit providing high-level financial and fulfillment health.
 * **Core KPIs:** Total Revenue (5.61B), Total Profit (1.13B), Total Orders (300K), Units Sold (6M), Average Order Value (18.71K).
@@ -31,7 +31,7 @@ C-suite operational cockpit providing high-level financial and fulfillment healt
 ---
 
 ### 2. Inventory & Warehouse
-![Inventory & Warehouse](page2.png)
+![Inventory & Warehouse](ScreenShot/page2.png)
 
 Facility capacity tracking, stock allocation integrity, and reorder alerts.
 * **Core KPIs:** Total Stock (1B units), Reserved Stock (249M), Damaged Stock (25M), Active Warehouses (1,000).
@@ -40,7 +40,7 @@ Facility capacity tracking, stock allocation integrity, and reorder alerts.
 ---
 
 ### 3. Shipping & Returns
-![Shipping & Returns](page3.png)
+![Shipping & Returns](ScreenShot/page3.png)
 
 Carrier performance SLAs and reverse logistics root-cause diagnostics.
 * **Core KPIs:** Total Shipments (300K), On-Time Delivery Rate (6.77%), Late Shipments (280K), Total Returns (50K).
@@ -49,7 +49,7 @@ Carrier performance SLAs and reverse logistics root-cause diagnostics.
 ---
 
 ### 4. Customers & Sales
-![Customers & Sales](page4.png)
+![Customers & Sales](ScreenShot/page4.png)
 
 Retention metrics, customer lifetime spend, and omnichannel payment health.
 * **Core KPIs:** Total Customers (100K), Repeat Customers (80K / 80% Retention Rate), Total Revenue, Average Order Value.
