@@ -55,26 +55,6 @@ Retention metrics, customer lifetime spend, and omnichannel payment health.
 * **Core KPIs:** Total Customers (100K), Repeat Customers (80K / 80% Retention Rate), Total Revenue, Average Order Value.
 * **Visual Breakdown:** Top 10 Customers by Lifetime Value, Revenue Breakdown by Payment Method (UPI, COD, Net Banking, Credit/Debit Card), Order Status Distribution, and High-Value Customer Directory.
 
-### 1. Executive Overview
-C-suite operational cockpit providing high-level financial and fulfillment health.
-* **Core KPIs:** Total Revenue (5.61B), Total Profit (1.13B), Total Orders (300K), Units Sold (6M), Average Order Value (18.71K).
-* **Visual Breakdown:** 24-month Monthly Revenue Trend, Revenue Contribution by Product Category, Order Fulfillment Status Funnel, and Top 10 Products by Revenue.
-
-### 2. Inventory & Warehouse
-Facility capacity tracking, stock allocation integrity, and reorder alerts.
-* **Core KPIs:** Total Stock (1B units), Reserved Stock (249M), Damaged Stock (25M), Active Warehouses (1,000).
-* **Visual Breakdown:** Total Stock by Warehouse Hub, Warehouse Capacity Utilization % (highlighting facilities operating between 102% and 115% rated capacity), Stock Condition Breakdown (Available vs. Reserved vs. Damaged), and Low Stock Watchlist.
-
-### 3. Shipping & Returns
-Carrier performance SLAs and reverse logistics root-cause diagnostics.
-* **Core KPIs:** Total Shipments (300K), On-Time Delivery Rate (6.77%), Late Shipments (280K), Total Returns (50K).
-* **Visual Breakdown:** Shipment Volume by Carrier (BlueDart, Delhivery, UPS, FedEx, DTDC, DHL), On-Time Delivery Rate by Carrier, Return Reasons Breakdown, and Top Returned Products.
-
-### 4. Customers & Sales
-Retention metrics, customer lifetime spend, and omnichannel payment health.
-* **Core KPIs:** Total Customers (100K), Repeat Customers (80K / 80% Retention Rate), Total Revenue, Average Order Value.
-* **Visual Breakdown:** Top 10 Customers by Lifetime Value, Revenue Breakdown by Payment Method (UPI, COD, Net Banking, Credit/Debit Card), Order Status Distribution, and High-Value Customer Directory.
-
 ---
 
 ## ⚙️ Data Model & Schema Architecture
