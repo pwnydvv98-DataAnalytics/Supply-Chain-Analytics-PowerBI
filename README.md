@@ -147,10 +147,38 @@ CALCULATE(
 ### 🛠️ Tech Stack
 * **Business Intelligence:** Power BI Desktop
 
-* **Calculations:** DAX (Data Analysis Expressions)
+* **Calculations:** DAX (Data Analysis Expressions)  
 
 * **ETL & Transformation:** Power Query (M)
 
 * **Data Modeling:** Star Schema (Kimball Methodology)
 
 * **Source Architecture:** Relational SQL (10 Clean Tables)
+
+## 🚀 How to Run the Project Locally
+
+### Prerequisites
+* [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (Free download from Microsoft)
+* [Git](https://git-scm.com/downloads) & [Git LFS](https://git-lfs.com/) (Required to pull the large `.pbix` and `.csv` files)
+* [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (or your preferred SQL client)
+
+---
+
+### Step-by-Step Setup
+
+1. **Clone the repository and pull Git LFS objects:**
+   ```bash
+   git clone https://github.com/pwnydvv98-DataAnalytics/Supply-Chain-Analytics-PowerBI.git
+   cd Supply-Chain-Analytics-PowerBI
+   git lfs pull
+
+ ### 2. Set up the Database & Datasets
+* Open **MySQL Workbench**.
+* Execute the scripts located inside the `sql/` directory to create the database schema and populate the tables.
+* If connecting directly via flat files, verify the CSV datasets match the expected local paths.
+
+### 3. Open and Refresh the Dashboard
+* Open `supply_chain.pbix` in **Power BI Desktop**.
+* Go to **Home** → **Transform Data** → **Data source settings**.
+* Update the credentials and connection parameters to match your local MySQL server.
+* Click **Close & Apply**, then hit **Refresh** to load the complete pipeline.
